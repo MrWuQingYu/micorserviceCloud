@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-dept-client   #名字要跟git上的配置文件名一致
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:3344
